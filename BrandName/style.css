@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: #252b43;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #252b43;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.navbar h1 {
+    font-size: 40px;
+    margin-left: 150px;
+}
+
+.navbar nav {
+    margin-right: 200px;
+}
+
+.navbar nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.7s;
+}
+
+.navbar nav a:hover,
+.log a:hover {
+    padding: 5px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+}
+
+.log a {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.7s;
+}
+
+.joinbtn {
+    background-color: #007bff;
+    color: white;
+    border: solid #007bff 1px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.joinbtn:hover {
+    background-color: #252b43;
+    color: #007bff;
+    border: solid #007bff 1px;
+}
+
+.main {
+    display: flex;
+}
+
+.main img {
+    width: 566px;
+    height: 506px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.left {
+    padding-top: 100px;
+    margin-left: 200px;
+}
+
+.left h2 {
+    color: #00aaff;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.left h1 {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.left p {
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.buttons {
+    margin-top: 35px;
+}
+
+.Now {
+    padding: 17px 45px;
+    background-color: #007bff;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+    border: solid #007bff 1px;
+}
+
+.Now:hover {
+    background-color: #252b43;
+    color: #007bff;
+    border: solid #007bff 1px;
+}
+
+.LearnMore {
+    padding: 17px 45px;
+    background-color: #252b43;
+    color: #007bff;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    border: solid #007bff 1px;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+
+.LearnMore:hover {
+    background-color: #007bff;
+    color: aliceblue;
+}
